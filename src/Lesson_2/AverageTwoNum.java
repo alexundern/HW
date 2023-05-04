@@ -7,7 +7,7 @@ public class AverageTwoNum {
         public static void main(String[] args) {
 
             Scanner input = new Scanner(System.in);
-            DecimalFormat df = new DecimalFormat("#.##");
+            DecimalFormat df = new DecimalFormat("#.#");
 
             System.out.print("Enter the first number: ");
             double num1 = input.nextDouble();
