@@ -3,7 +3,7 @@ package Lesson_3;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Hw3 {
+public class Calculation3 {
 
     public void forPrintFrom1to99() {
         for (int i = 1; i <= 99; i += 2) {

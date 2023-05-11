@@ -1,9 +1,9 @@
 package Lesson_3;
 
-public class MainHw3 {
+public class SystemOutPrint3 {
 
     public static void main(String[] args) {
-        Hw3 hw = new Hw3();
+        Calculation3 hw = new Calculation3();
 
         System.out.println("Task 1: For 1 - 99.");
         hw.forPrintFrom1to99();
@@ -23,7 +23,8 @@ public class MainHw3 {
 
         System.out.println("Task 4: Do While 1 - 99.");
         hw.doWhilePrintFrom1to99();
-        System.out.println("\n______________________");
+        System.out.println();
+        System.out.println("______________________");
 
         System.out.println("Task 4: Do While factorial.");
         hw.doWhileFactorial();
@@ -35,11 +36,13 @@ public class MainHw3 {
 
         System.out.println("Task 6: The first 10 numbers of the sequence 0, -5, -10, -15.");
         hw.sequences10();
-        System.out.println("\n______________________");
+        System.out.println();
+        System.out.println("______________________");
 
         System.out.println("Task 7: Multiplication table.");
         hw.multiplicationTable();
-        System.out.println("\n______________________");
+        System.out.println();
+        System.out.println("______________________");
 
         System.out.println("Task 8: Aarray the first 10 odd numbers.");
         hw.arrayTenOddNumbers();
@@ -55,7 +58,7 @@ public class MainHw3 {
 
         System.out.println("Task 11: Swap Min and Max element of massive.");
         hw.swapMinMax();
-
+        System.out.println("\n__________");
     }
 
 }
